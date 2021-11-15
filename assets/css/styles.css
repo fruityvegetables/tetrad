@@ -11669,3 +11669,10 @@ fieldset:disabled .btn {
   background-position: center;
   background-size: cover;
 }
+
+.service-map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
