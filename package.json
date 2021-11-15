@@ -1,0 +1,23 @@
+{
+  "name": "tetrad",
+  "version": "1.0.0",
+  "description": "tetrad property services website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fruityvegetables/tetrad.git"
+  },
+  "author": "Garrett Troyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fruityvegetables/tetrad/issues"
+  },
+  "homepage": "https://github.com/fruityvegetables/tetrad#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
