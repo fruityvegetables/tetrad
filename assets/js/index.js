@@ -8,6 +8,8 @@ window.onload = function () {
       // these IDs from the previous steps
       emailjs.sendForm("contact_service", "contact_form", this).then(
         function () {
+          //console.log("clicked");
+          $("#myModal").modal()
           console.log("SUCCESS!");
         },
         function (error) {
