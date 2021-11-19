@@ -1,3 +1,5 @@
+//~~~~~~~~~ emailJS LOGIC
+
 window.onload = function () {
   document
     .getElementById("contact-form")
@@ -18,3 +20,5 @@ window.onload = function () {
       );
     });
 };
+
+//~~~~~~~ FACEBOOK MESSENGER LOGIC
