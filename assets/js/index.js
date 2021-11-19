@@ -9,7 +9,7 @@ window.onload = function () {
       emailjs.sendForm("contact_service", "contact_form", this).then(
         function () {
           //console.log("clicked");
-          $("#myModal").modal()
+          //$("#myModal").modal()
           console.log("SUCCESS!");
         },
         function (error) {
