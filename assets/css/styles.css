@@ -11676,3 +11676,7 @@ fieldset:disabled .btn {
   margin-right: auto;
   width: 50%;
 }
+
+.bold {
+  font-weight: bold !important;
+}
