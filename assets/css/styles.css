@@ -11680,3 +11680,12 @@ fieldset:disabled .btn {
 .bold {
   font-weight: bold !important;
 }
+
+.row {
+  display: flex !important;
+}
+
+.column {
+  flex: 33.33% !important;
+  padding: 5px !important;
+}
