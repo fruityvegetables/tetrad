@@ -111,15 +111,17 @@
                 <input type="submit" value="Send">
             </form> -->
 
-            <!-- NEW CONTACT FORM -->
-          <form id="contact-form" name="contactForm" onsubmit = "return(validateEmail());">
+            <!-- NEW CONTACT FORM 
+            for line 117 form id contact-form // onsubmit = return(ValidateEmail(document.form1.text1));
+            -->
+          <form id="contact-form" name="contactForm" onsubmit = "ValidateEmail(document.form1.text1)">
             <input type="hidden" name="contact_number">
             <div class="form-row">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Name" name="user_name">
+                <input type="text" class="form-control" placeholder="Name" name="user_name" id="nameValidate">
               </div>
               <div class="col">
-                <input type="email" class="form-control" placeholder="Email" name="user_email">
+                <input type="email" class="form-control" placeholder="Email" name="user_email" id="emailValidate">
               </div>
               <div class="col">
                 <textarea name="message" class="form-control" placeholder="Type message here!"></textarea>
@@ -194,7 +196,7 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">
-        Copyright &copy; Tetrad Property Solutions 2021
+        Copyright &copy; Tetrad Property Solutions 2022
       </p>
     </div>
   </footer>

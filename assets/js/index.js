@@ -1,20 +1,8 @@
-//~~~~~~~~~ validate contact form email
+//~~~~~~~~~ if we need to... put validate contact form email logic here
+//~~~~~~~~~ line 115 contact.html
 
-// function validateEmail() {
-//   var emailID = document.contactForm.user_email.value;
-//   atpos = emailID.indexOf("@");
-//   dotpos = emailID.lastIndexOf(".");
-  
-//   if (atpos < 1 || ( dotpos - atpos < 2 )) {
-//      alert("Please enter correct email ID")
-//      document.contactForm.user_email.focus() ;
-//      return false;
-//   }
-//   return( true );
-// }
 
 //~~~~~~~~~ emailJS LOGIC
-
 window.onload = function () {
   document
     .getElementById("contact-form")
@@ -36,8 +24,9 @@ window.onload = function () {
     });
 };
 
-//~~~~~~~ FACEBOOK MESSENGER LOGIC
 
+
+//~~~~~~~ FACEBOOK MESSENGER LOGIC
 var chatbox = document.getElementById('fb-customer-chat');
 chatbox.setAttribute("page_id", "102768998341122");
 chatbox.setAttribute("attribution", "biz_inbox");
